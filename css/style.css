@@ -12,6 +12,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 /*** Spinner End ***/
 
 .back-to-top {
@@ -115,6 +116,7 @@
     border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;
   }
 }
+
 /*** Icon Animation End ***/
 
 /*** Navbar Start ***/
@@ -206,15 +208,14 @@
     padding: 12px 0;
   }
 }
+
 /*** Navbar End ***/
 
 /*** Carousel Header Start ***/
 
 .header-info {
-    line-height: 26px;
+  line-height: 26px;
 }
-
-
 
 .carousel .carousel-item img {
   object-fit: cover;
@@ -267,6 +268,7 @@
     display: none;
   }
 }
+
 /*** Carousel Header End ***/
 
 /*** Single Page Hero Header Start ***/
@@ -289,6 +291,7 @@
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
   color: var(--bs-white);
 }
+
 /*** Single Page Hero Header End ***/
 
 /*** Features Start ***/
@@ -397,6 +400,7 @@
   border-radius: 10px;
   background: var(--bs-secondary);
 }
+
 /*** About End ***/
 
 /*** Fact Counter Start ***/
@@ -485,6 +489,7 @@
   animation-iteration-count: infinite;
   transition: 0.5s;
 }
+
 /*** Service End ***/
 
 /*** Cars Categories Start ***/
@@ -555,6 +560,7 @@
   background: var(--bs-secondary);
   color: var(--bs-white);
 }
+
 /*** Cars Categories End ***/
 
 /*** Process Start ***/
@@ -593,6 +599,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /*** Process End ***/
 
 /*** Blog Start ***/
@@ -655,6 +662,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 /*** Blog End ***/
 
 /*** Banner Start ***/
@@ -712,6 +720,7 @@
     margin-bottom: 20px;
   }
 }
+
 /*** Banner End ***/
 
 /*** Team Start ***/
@@ -755,6 +764,7 @@
 .team .team-item:hover .team-content h4 {
   color: var(--bs-white);
 }
+
 .team .team-item:hover .team-content p {
   color: var(--bs-white);
 }
@@ -792,6 +802,7 @@
 .team .team-item:hover .team-img::after {
   height: 100%;
 }
+
 /*** Team End ***/
 
 /*** Testimonial Start ***/
@@ -889,6 +900,7 @@
   background: var(--bs-white);
   transition: 0.5s;
 }
+
 /*** Testimonial End ***/
 
 /*** Contact Start ***/
@@ -953,6 +965,7 @@
 .footer .footer-item .footer-btn a:hover i {
   color: var(--bs-primary) !important;
 }
+
 /*** Footer End ***/
 
 /*** copyright Start ***/
@@ -960,4 +973,5 @@
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   background: var(--bs-dark);
 }
+
 /*** copyright end ***/
