@@ -838,6 +838,7 @@
 }
 
 .testimonial .testimonial-item {
+  height: 300px;
   position: relative;
   margin-top: 35px;
   border: 1px solid var(--bs-secondary);
