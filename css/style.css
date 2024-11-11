@@ -961,6 +961,33 @@
 
 /*** Contact End ***/
 
+/*** Team Start ***/
+.faq-element {
+  padding: 20px 80px;
+
+}
+
+.question {
+  font-size: 25px;
+}
+
+.answer {
+  margin-top: 15px;
+  font-size: 25px;
+  color: var(--bs-primary);
+}
+
+.toggle-button {
+  margin-left: 20px;
+}
+
+.toggle-button:hover {
+  color: var(--bs-primary);
+}
+
+/*** Team Start ***/
+
+
 /*** Footer Start ***/
 .footer {
   background: var(--bs-dark);

@@ -116,3 +116,18 @@
 
 })(jQuery);
 
+"use strict"
+
+document.querySelectorAll('.toggle-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.parentElement.querySelector('.answer');
+        if (answer.style.display === 'none') {
+            answer.style.display = 'block';
+            button.textContent = '▲'; // Strzałka do góry
+        } else {
+            answer.style.display = 'none';
+            button.textContent = '▼'; // Strzałka na prawo
+        }
+    });
+});
+
