@@ -962,6 +962,10 @@
 /*** Contact End ***/
 
 /*** Team Start ***/
+#faq {
+  padding: 20px 10px;
+}
+
 .faq-element {
   padding: 20px 80px;
 
