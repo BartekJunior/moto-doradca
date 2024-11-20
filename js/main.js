@@ -126,8 +126,14 @@ document.querySelectorAll('.toggle-button').forEach(button => {
             button.textContent = '▲'; // Strzałka do góry
         } else {
             answer.style.display = 'none';
-            button.textContent = '▼'; // Strzałka na prawo
+            button.textContent = '▼'; // Strzałka w dol
         }
     });
+});
+
+
+document.getElementById('submitBtn').addEventListener('click', function(event) {
+    document.getElementById('formThanks').style.display = 'block';
+    
 });
 

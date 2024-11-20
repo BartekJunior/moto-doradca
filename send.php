@@ -19,14 +19,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Nagłówki e-maila
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
-
-    // Wysyłka e-maila
-    if (mail($to, $subject, $emailMessage, $headers)) {
-        echo "Wiadomość została wysłana pomyślnie!";
-    } else {
-        echo "Błąd podczas wysyłania wiadomości.";
-    }
-} else {
-    echo "Nieprawidłowa metoda wysyłania.";
 }
-?>

@@ -510,9 +510,6 @@
   }
 }
 
-
-
-
 /*** Options End ***/
 
 /*** Cars Categories Start ***/
@@ -959,6 +956,19 @@
   transition: 0.5s;
 }
 
+.form-thanks {
+  min-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(104, 30, 30);
+  background-color: rgb(111, 194, 111) !important;
+}
+
+#formThanks {
+  display: none;
+}
+
 /*** Contact End ***/
 
 /*** Team Start ***/
@@ -968,7 +978,6 @@
 
 .faq-element {
   padding: 20px 80px;
-
 }
 
 .question {
@@ -990,7 +999,6 @@
 }
 
 /*** Team Start ***/
-
 
 /*** Footer Start ***/
 .footer {
