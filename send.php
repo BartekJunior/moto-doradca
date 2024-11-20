@@ -1,11 +1,11 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Pobranie danych z formularza
+    // Dane z formularza
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Konfiguracja adresu odbiorcy
+    // Adres, na który wysyłana jest wiadomość
     $to = "bartekprzybysz@gmail.com";
     $subject = "Nowa wiadomość od: $name";
 
@@ -16,7 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     Wiadomość:\n$message
     ";
 
-    // Nagłówki e-maila
+    // Nagłówki wiadomości
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
+
+    // Wyślij wiadomość
+    mail($to, $subject, $emailMessage, $headers);
 }
+

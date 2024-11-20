@@ -134,6 +134,5 @@ document.querySelectorAll('.toggle-button').forEach(button => {
 
 document.getElementById('submitBtn').addEventListener('click', function(event) {
     document.getElementById('formThanks').style.display = 'block';
-    
 });
 

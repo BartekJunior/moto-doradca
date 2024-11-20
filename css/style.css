@@ -960,9 +960,10 @@
   min-height: 50px;
   font-size: 18px;
   text-align: center;
-  line-height: 30px;
+  line-height: 36px;
   color: rgb(104, 30, 30);
   background-color: rgb(111, 194, 111) !important;
+  border-radius: 8px;
 }
 
 #formThanks {
